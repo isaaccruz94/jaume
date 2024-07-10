@@ -1,0 +1,42 @@
+@import "./button.css";
+@import "./link.css";
+@import "./body.css";
+@import "./wrapper.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./introduction.css";
+@import "./project.css";
+@import "./testimony.css";
+@import "./spotifu.css";
+@import "./marvol.css";
+
+:root { 
+  --primary: #afc1e0; 
+  --gradient: linear-gradient(45deg, #29355e 0%,#1f284f, #0a0d31, #000022 100%); 
+  --white: #fffff9;
+  --second: #50B498;
+  --dark: #000000; 
+  --gradient1: linear-gradient(45deg, #72edf2 0%, #5151e5 100%); 
+  --headline1: 700 5.9375rem/9.6068754196167rem Roboto; 
+  --headline2: 700 3.6875rem/5.96637487411499rem Roboto; 
+  --headline3: 700 3rem/4.854000091552734rem Roboto; 
+  --headline4: 700 2.125rem/3.4382500648498535rem Roboto; 
+  --headline5: 700 1.5rem/2.427000045776367rem Roboto; 
+  --headline6: 400 1.5rem/2rem Montserrat; 
+  --body1: 400 1rem/1.6180000305175781rem Montserrat; 
+  --body2: 400 0.875rem/1.4157500267028809rem Montserrat; 
+  --button: 700 0.875rem/1.4157500267028809rem Roboto; 
+  --caption: 400 0.75rem/1.2135000228881836rem Montserrat; 
+}
+
+h1{
+  font: var(--headline4);
+  background-image: linear-gradient(45deg,#28e176 20%,#579cc6 ,#5151e5 60%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+h2{
+  font: var(--headline2);
+}

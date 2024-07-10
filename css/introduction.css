@@ -1,0 +1,32 @@
+.introduction{
+    block-size: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introduction-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.introduction-text{
+    text-align: center;
+    margin: 0;
+    font: var(--headline6);
+}
+.introduction-important{
+    font: var(--headline5);
+    text-align: center;
+    margin: 0;
+}
+.introductor-img{
+    margin-inline: auto;
+}
+@media screen and (min-width:768px){
+    .introduction{
+        padding-inline: 6rem;
+    }
+    .introduction-important{
+        font: var(--button);
+    }
+}

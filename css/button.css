@@ -1,0 +1,29 @@
+.button{
+    padding-inline: 1.5rem;
+    padding-block: .81rem;
+    text-transform: uppercase;
+    background: none;
+    border: .18rem solid black;
+    border-radius: .25rem;
+    font: var(--button);
+    cursor: pointer;
+    transition: transform .2s;
+}
+.button.is-primary{
+    background-color: var(--dark);
+    color: var(--white);
+}
+.button:active{
+    transform: scale(.9);
+}
+
+.hero-anchor{
+    display: block;
+    padding: 1rem;
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: .25rem;
+}
+.hero-anchor img{
+    display: block;
+}

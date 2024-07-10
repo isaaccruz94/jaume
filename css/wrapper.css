@@ -1,0 +1,19 @@
+.wrapper{
+    max-inline-size: 95%;
+    margin-inline: auto;
+}
+@media screen and (min-width:768px){
+    .wrapper{
+        max-inline-size: 90%;
+    }
+}
+@media screen and (min-width:1024px){
+    .wrapper{
+        max-inline-size: 82%;
+    }
+}
+@media screen and (min-width:1920px){
+    .wrapper{
+        max-inline-size: 87%;
+    }
+}
